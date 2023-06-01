@@ -1,5 +1,5 @@
 Cloner le projet:
-git clone https://github.com/Bigornote/Kasa.git
+git clone [https://github.com/TheoCourtin/Kasa.git]
 
 Installation avec React:
 npm install
