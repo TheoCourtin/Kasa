@@ -1,0 +1,16 @@
+﻿.star {
+  display: flex;
+  gap: 5px;
+  svg {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .star {
+    margin-top: 10px;
+    svg {
+      font-size: 30px;
+    }
+  }
+}
