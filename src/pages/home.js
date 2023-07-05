@@ -2,7 +2,7 @@
 import Banner from "../components/banner";
 import Card from "../components/card";
 import Data from "../data/logements.json";
-
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
   
@@ -23,3 +23,4 @@ const Home = () => {
 };
 
 export default Home;
+

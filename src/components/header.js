@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Header = () => {
+  
   return (
-    <header className="header container">
+    <header className="header">
       <div className="logo">
         <img src={logo} alt="Logo Kasa" />
       </div>
@@ -12,17 +13,17 @@ const Header = () => {
       <nav className="navigation">
         <ul>
           <NavLink
-            to="/"
+            to="/"            
+            className={(nav) => (nav.isActive ? "nav-active": undefined)}
             end
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
             <li>accueil</li>
           </NavLink>
           <NavLink
             to="/about"
-            end
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
+            className={(nav) => (nav.isActive ? "nav-active": undefined)}
           >
+            
             <li>à propos</li>
           </NavLink>
         </ul>
